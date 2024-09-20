@@ -1,0 +1,15 @@
+name: task 1
+
+on:
+  commit: 
+    branches: 
+    - main 
+
+jobs: 
+  commit:
+  runs-on: ubuntu-latest
+
+    steps:
+      - name: Acknowledges Commit
+        run: echo "Commited"
+
